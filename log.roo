@@ -1,0 +1,37 @@
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-04-24 22:30:55
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-04-24 22:31:22
+gwt setup
+perform tests
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-04-24 22:45:37
+persistence setup --provider HIBERNATE --database MYSQL --userName root
+// [failed] database introspect --schema contacts
+// [failed] database introspect --schema contacts
+hint
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-04-24 22:51:51
+download status
+download view
+// [failed] database reverse engineer --schema contacts
+download status
+download accept terms of use
+// [failed] database reverse engineer --schema contacts
+// [failed] database reverse engineer --schema contacts
+// [failed] database reverse engineer --schema contacts
+// [failed] addon info id --searchResultId JDBC
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml.zip
+osgi obr start --bundleSymbolicName org.springframework.roo.wrapping.mysql-connector-java
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml.zip
+addon install id --searchResultId 01
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml.zip
+osgi obr start --bundleSymbolicName org.springframework.roo.wrapping.mysql-connector-java
+osgi obr url remove --url http://spring-roo-repository.springsource.org/repository.xml.zip
+addon install bundle --bundleSymbolicName org.springframework.roo.wrapping.mysql-connector-java
+database reverse engineer --schema contacts
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-04-24 23:04:27
+persistence setup --provider HIBERNATE --database MYSQL --databaseName contacts --userName root
+database introspect --schema contacts
+addon install id --searchResultId 01
+database introspect --schema contacts
+database introspect --schema contacts
+database introspect --schema contacts
+database introspect --schema contacts
+database introspect --schema contacts

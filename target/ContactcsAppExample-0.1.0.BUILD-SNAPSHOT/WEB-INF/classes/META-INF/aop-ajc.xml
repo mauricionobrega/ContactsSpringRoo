@@ -1,0 +1,12 @@
+<aspectj>
+<aspects>
+<aspect name="br.com.webstart.contacts.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="br.com.webstart.contacts.domain.Contact_Roo_Jpa_ActiveRecord"/>
+<aspect name="br.com.webstart.contacts.domain.Contact_Roo_ToString"/>
+<aspect name="br.com.webstart.contacts.domain.Contact_Roo_Configurable"/>
+<aspect name="br.com.webstart.contacts.domain.Contact_Roo_Jpa_Entity"/>
+<aspect name="br.com.webstart.contacts.web.ContactController_Roo_Controller"/>
+<aspect name="br.com.webstart.contacts.domain.Contact_Roo_JavaBean"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_br_com_webstart_contacts_domain_Contact" items="${contacts}" z="VZlRaVPCK1ty0PaG5S5KFu0fm1c=">
+        <table:table data="${contacts}" id="l_br_com_webstart_contacts_domain_Contact" path="/contacts" z="+cxhH7qDZ6+T4Wy7V55JhqvD56Y=">
+            <table:column id="c_br_com_webstart_contacts_domain_Contact_contactName" property="contactName" z="vrjdxNwwvwi84SD7aZE14CxPGac="/>
+            <table:column id="c_br_com_webstart_contacts_domain_Contact_contactNumber" property="contactNumber" z="ICWpHpX0XCjtlO2kvFvtB/QmFwo="/>
+        </table:table>
+    </page:list>
+</div>
